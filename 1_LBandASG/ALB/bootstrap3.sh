@@ -2,9 +2,9 @@
 yum install -y httpd php git
 
 cd /var/www/html
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/ALB/dog3.jpg
+wget https://github.com/CloudIgnite/AWS-SolutionArchitect-Associate/blob/main/1_LBandASG/ALB/dog3.jpg
 mv dog3.jpg dog.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/ALB/index.php
+wget https://github.com/CloudIgnite/AWS-SolutionArchitect-Associate/blob/main/1_LBandASG/ALB/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 mkdir /var/www/html/dog

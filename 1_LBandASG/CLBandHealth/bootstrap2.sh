@@ -2,9 +2,9 @@
 yum install -y httpd php git
 
 cd /var/www/html
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/cat2.jpg
+wget https://github.com/CloudIgnite/AWS-SolutionArchitect-Associate/blob/main/1_LBandASG/CLBandHealth/cat2.jpg
 mv cat2.jpg cat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
+wget https://github.com/CloudIgnite/AWS-SolutionArchitect-Associate/blob/main/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 

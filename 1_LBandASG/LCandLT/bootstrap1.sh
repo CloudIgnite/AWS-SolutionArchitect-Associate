@@ -3,9 +3,9 @@ yum install -y httpd php git
 
 cd /var/www/html
 
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/LCandLT/cat1.jpg
+wget https://github.com/CloudIgnite/AWS-SolutionArchitect-Associate/blob/main/1_LBandASG/LCandLT/cat1.jpg
 mv cat1.jpg cat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/LCandLT/index.php
+wget https://github.com/CloudIgnite/AWS-SolutionArchitect-Associate/blob/main/1_LBandASG/LCandLT/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 sudo systemctl start httpd
